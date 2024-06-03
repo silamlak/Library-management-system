@@ -1,0 +1,95 @@
+/* CSS styles for the Contact Us section */
+body{
+    font-size: 13px;
+  }
+  
+  .whatspro {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .what {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    
+    border-radius: 5px;
+    padding: 30px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .input-boxes {
+    margin-bottom: 20px;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-box input[type="text"],
+  .input-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-box input[type="text"]:focus,
+  .input-box textarea:focus {
+    border-color: #4CAF50;
+  }
+  
+  .input-box input[type="text"]::placeholder,
+  .input-box textarea::placeholder {
+    color: #888888;
+  }
+  
+  .input-box .button {
+    text-align: center;
+  }
+  
+  .input-box input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-box input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .input-box input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .what {
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .input-box input[type="text"],
+    .input-box textarea {
+      padding: 10px;
+    }
+    
+    .input-box input[type="submit"] {
+      padding: 10px;
+    }
+  }
